@@ -1,0 +1,487 @@
+.attech-header {
+    margin: 0px;
+    height: 40px;
+    width:inherit;
+    background-color: #232323;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.dropbtn {
+    color: white;
+    padding: 0px 16px;
+    font-size: 16px;
+}
+
+.dropbtn.dropdown-toggle {
+    vertical-align: middle;
+    text-decoration: none;
+}
+.sub-head-list {
+    list-style: none;
+    display: -webkit-inline-flex;
+    margin: 0px;
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: -moz-middle-with-baseline;
+    line-height: 2.5em;
+}
+.sub-head-list-items {
+    padding-left: 35px;
+}
+.sub-head-list-link {
+    color: #fff;
+}
+.dropdown-1 {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.dropdown-2 {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.dropdown-3 {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.dropdown-4 {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+@keyframes example{
+	0%{top:-134.5px;}
+	
+	100%{top:112px;}		
+}
+.dropdown-content-1 {
+
+    display: none;
+    position: fixed;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 5px 0px rgb(52, 108, 181);
+    z-index: 1;
+    border: 2px solid #346cb5;
+    border-radius: 15px;
+    font-size: 13px;
+    animation-name: example;
+    animation-duration: 0.40s;
+
+}
+
+.dropdown-content-2 {
+
+    display: none;
+    position: fixed;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 5px 0px rgb(52, 108, 181);
+    z-index: 1;
+    border: 2px solid #346cb5;
+    border-radius: 15px;
+    font-size: 13px;
+    animation-name: example;
+    animation-duration: 0.40s;
+
+}
+
+.dropdown-content-3 {
+
+    display: none;
+    position: fixed;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 5px 0px rgb(52, 108, 181);
+    z-index: 1;
+    border: 2px solid #346cb5;
+    border-radius: 15px;
+    font-size: 13px;
+    animation-name: example;
+    animation-duration: 0.40s;
+
+}
+
+.dropdown-content-4 {
+
+    display: none;
+    position: fixed;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 5px 0px rgb(52, 108, 181);
+    z-index: 1;
+    border: 2px solid #346cb5;
+    border-radius: 15px;
+    font-size: 13px;
+    animation-name: example;
+    animation-duration: 0.40s;
+
+}
+
+.dropdown-content-1 a {
+    color: #346cb5;
+    padding: 12px 16px;
+    line-height: 45px;
+}
+
+.dropdown-content-2 a {
+    color: #346cb5;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content-3 a {
+    color: #346cb5;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content-4 a {
+
+    color: #346cb5;
+    padding: 12px 16px;
+    display: block;
+
+}
+
+
+.dropdown-content-1 a:hover {background-color: none;}
+.dropdown-content-2 a:hover {background-color: none;}
+
+.dropdown-1:hover .dropdown-content-1 {display: block;}
+.dropdown-2:hover .dropdown-content-2 {display: block;}
+
+.dropdown-1:hover .dropbtn {background-color: none; color: white;}
+.dropdown-2:hover .dropbtn {background-color: none; color: white;}
+
+.dropdown-content-3 a:hover {background-color: none;}
+.dropdown-content-4 a:hover {background-color: none;}
+
+.dropdown-3:hover .dropdown-content-3 {display: block;}
+.dropdown-4:hover .dropdown-content-4 {display: block;}
+
+.dropdown-3:hover .dropbtn {background-color: none; color: white;}
+.dropdown-4:hover .dropbtn {background-color: none; color: white;}
+
+
+.dropdown{
+	display: none;
+	color: #fff;
+    padding-top: 2px;
+}
+
+
+.navbar-toggle {
+    position: relative;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 3px 0px 0px 0px;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.more-list-class {
+    display: none;
+    width: auto;
+    height: auto;
+    background-color: #464d4d;
+    position: relative;
+    z-index: 1;
+    border: 2px solid slategrey;
+    border-radius: 5px;
+    padding: 4px 0px;
+}
+
+   .more-list {
+    font-size: 13px;
+    width: auto;
+    margin-top: 27px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+.more-list-item {
+    color: #fff;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    border-top: 2px solid slategrey;
+    padding: 6px;
+}
+
+.morebtn.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    font-size: 17px;
+    position: inherit;
+    float: left;
+    padding: 4px;
+}
+
+.fa.fa-search.my-icon {
+
+    color: #fff;
+    font: normal normal normal 18px/1 FontAwesome;
+
+}
+.fa.fa-home.my-icon {
+
+    color: #fff;
+    display: block;
+    font: normal normal normal 24px/1 FontAwesome;
+    line-height: 2.3rem;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .attech-header {
+    margin: 0px;
+    height: 40px;
+    width: auto;
+    background-color: #232323;
+    border-top: 1px solid #fff;
+ 	}
+	.navbar-toggle {
+	display: block;
+	}
+#close-sidebar{
+	  position: relative;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 3px 0px 0px 0px;
+    display: none;
+    cursor: pointer;
+}
+	.dropdown-1,.dropdown-2,.dropdown-3,.dropdown-4 {
+    display: none;
+	}
+	
+	.dropdown{
+	display: block;
+	}
+
+	.dropdown:hover .dropbtn {background-color: none; color: white;}
+	
+	.sub-head-list{
+		display: none;
+	}
+	
+	
+	
+}
+#list-block {
+    display: block;
+}	
+	
+	
+
+
+.searchbar-target {
+    display: block;
+    position: absolute;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    outline: 0;
+    margin-top: 2px;
+    background-color: transparent;
+}
+
+	.my-h-100:hover .block{
+	display:none;
+	}
+   
+    .my-h-100 {
+
+    width: auto;
+    float: right;
+}
+
+.home-icon {
+
+    margin-left: 10px;
+    color: black;
+    line-height: 2.5rem;
+
+}
+
+.tuto-btn {
+
+  
+    background-color: transparent;
+    border: 0;
+    margin-left: 10px;
+    font-style: unset;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+
+
+.modal-dialog.my-modal-dialog {
+    max-width: 245px;
+    margin: auto;
+}
+
+.modal-dialog.my-tutorial-modal-dialog{
+	 max-width: 100%;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.modal-dialog.my-search-modal-dialog {
+    max-width: 500px;
+}
+
+.modal-body.my-modal-body {
+    padding: 0.5rem;
+}
+.search-text-fld {
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid antiquewhite;
+}
+.search {
+
+    display: flex;
+
+}
+.search-field {
+
+    width: 100%;
+
+}
+
+.close.cross {
+	padding-right: 12px;
+    opacity: 1.5;
+}
+
+.btn.btn-default.submit-btn {
+    background-color: transparent;
+}
+
+.fa.fa-search.fa-icon {
+line-height: 1.2rem;
+}
+
+.fa-icon{
+	
+	vertical-align: text-top;
+}
+.fa.fa-close.fa-ico {
+    font-size: smaller;
+    line-height: 1.5;
+}
+
+.modal-header.my-modal-header{
+	padding: 10px;
+	border-color: #333;
+}
+
+.modal-footer.my-modal-footer{
+	padding:10px;
+	border-color: #333;
+}
+
+.modal-body.my-modal-body{
+	padding:10px;
+}
+
+.modal-content.my-modal-content{
+	
+	background-color: #0c0c0c;
+	border-radius: 0;
+	
+}
+.my-time{
+	color:white;
+}
+
+#searchbar-target-id,#more-tgt-id,#open-sidebar {
+
+    outline: 0;
+
+}
+
+.modal-header.my-modal-header-2,.modal-footer.my-modal-footer-2,.modal-body.my-modal-body-2 {
+
+    padding: 10px;
+
+}
+
+
+.home-icon:hover {
+
+    text-decoration: none;
+
+}
+@media screen and (min-width: 1251px) {
+.home-icon{
+	
+	display: none;
+	}
+
+	.tuto-btn{
+	
+	display: none;
+	}
+}

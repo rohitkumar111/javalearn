@@ -1,0 +1,209 @@
+/*!
+ * Project_Name: Themezy Hosting Theme
+ * Author: Themezy
+ * Email: info@themezy.com
+ * URL: http://themezy.com
+ */
+/*=========================================== 
+ * Importing CSS Libraries
+ *===========================================*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+.slider {
+  position: relative;
+  background: #f6f7f9;
+  margin-bottom: 50px;
+  z-index: 0;
+  max-width: 100%;
+}
+.slider .slides {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  *zoom: 1;
+}
+.slider .slides:after {
+  content: " ";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 0;
+}
+.slider .slides li {
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  padding: 30px 0;
+}
+.slider .slides li img {
+  float: right;
+}
+.slider .slide-caption {
+  padding: 70px 50px 30px 0;
+}
+.slider .slide-title, .slider .slide-subtitle, .slider .slide-summary, .slider .button {
+  -webkit-transition: .3s ease-in;
+          transition: .3s ease-in;
+  opacity: 0;
+}
+.slider .slide-title {
+  color: #152559;
+  margin: 0 0 10px;
+  font-size: 55px;
+  font-size: 3.4375em;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  line-height: 55px;
+}
+.slider .slide-subtitle {
+  color: #01a6d4;
+  display: block;
+  margin: 0 0 50px;
+  font-weight: 300;
+  font-size: 36px;
+  font-size: 2.25em;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+}
+.slider .slide-summary {
+  -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+          transform: translateX(200px);
+  -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+  margin-bottom: 50px;
+}
+.slider .button {
+  -webkit-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+          transform: scale(0.3);
+  -webkit-transition-delay: .9s;
+          transition-delay: .9s;
+}
+.slider .flex-active-slide .slide-title, .slider .flex-active-slide .slide-subtitle {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+.slider .flex-active-slide .slide-summary {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+.slider .flex-active-slide .button {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+.slider .flex-control-nav {
+  list-style: none;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+.slider .flex-control-nav li {
+  display: inline-block;
+  margin: 0 2px;
+}
+.slider .flex-control-nav li a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbccce;
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.slider .flex-control-nav li a.flex-active {
+  background: #01a6d4;
+}
+
+
+
+.img-position{
+	
+	height: 30%;
+width: 30%;
+}
+
+.my-container {
+
+    max-width: 85%;
+
+}
+
+@media screen and (max-width: 576px) {
+
+	.slider .slide-title {
+  color: #152559;
+  margin: 0 0 10px;
+  font-size: 55px;
+  font-size: 2.438em;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  line-height: 30px;
+}
+.slider .slide-subtitle {
+  color: #01a6d4;
+  display: block;
+  margin: 0 0 50px;
+  font-weight: 300;
+  font-size: 36px;
+  font-size: 1.25em;
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+   line-height: 1.5;
+}
+
+.img-position{
+	
+	height: 30%;
+width: 40%;
+}
+
+.slider {
+
+    position: relative;
+    background: #f6f7f9;
+    margin-bottom: 50px;
+    z-index: 0;
+    max-height: 300px;
+
+}
+
+.slider .slide-caption {
+
+    padding: 40px 50px 30px 0;
+
+}
+}
+
+
+

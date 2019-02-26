@@ -1,0 +1,160 @@
+
+
+<section class="attech-header" id="attech-header-section">
+		<div class="own-container">
+	 	<button id="open-sidebar"  type="button" data-toggle="modal" 
+		data-target="#myModal" aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle collapsed">
+		
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+			
+	
+			
+			<ul class="sub-head-list">
+			<li class="sub-head-list-items"><a href="introjava.jsp" class="sub-head-list-link">Java</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Python</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Html</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">CSS</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Servlet</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">C++</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">PHP</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">JDBC</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">js</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">jquery</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Angular</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Spring</a></li>
+			<li class="sub-head-list-items"><a href="#" class="sub-head-list-link">Hibernate</a></li>
+			
+			</ul>
+		
+		<a href="index.jsp" class="home-icon"><span class="fa fa-home my-icon"></span></a>
+		<button id="more-tgt-id" type="button" data-toggle="modal" data-target="#myTutorial" aria-controls="bs-navbar" 
+		aria-expanded="false" class="tuto-btn">More<span class="caret"></span></button>	
+			
+
+  		 <button id="searchbar-target-id" class="searchbar-target"  type="button" data-toggle="modal" 
+			data-target="#myMod" aria-controls="bs-navbar" aria-expanded="false"><span class="fa fa-search my-icon"></span></button>
+  		 
+
+  		 
+  			
+</div>
+		
+</section>
+
+
+  		 
+<!-- Modal -->
+<div class="modal fade" id="myMod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog my-search-modal-dialog" role="document">
+    <div class="modal-content">
+    <!--   <div class="modal-header">  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+       </div>  -->
+      <div class="modal-body my-modal-body">
+        
+        
+        <div id="search-id" class="search">
+		<div class="search-field">
+		<form meathod="post" action="#">
+			<input id="search-text-fld-id" class="search-text-fld" type="text" name="" placeholder="Search..."> </div>
+	
+            <button id="more-tgt-id" type="submit" class="btn btn-default submit-btn"><span class="fa fa-search fa-icon"></span></button>
+        	
+        
+        </form>
+                       <button id="more-tgt-id" type="button" class="close cross" data-dismiss="modal" aria-label="Close"><span class="fa fa-close fa-ico"></span></button>
+        
+     	</div>  
+       
+      </div>
+    <!--   <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+      </div>  -->
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog my-modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header my-modal-header-2">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+   <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>  -->
+      </div>
+      <div class="modal-body my-modal-body-2">
+        <div id="model-side-bar-id" class="mode-side-bar">
+		<!-- <div class="tutorial-heading"><p class="tutorial-text-size">Tutorials</p></div>          col-xs-4 col-md-2-->	
+			<div class="main-tut-list">
+				<div class="tutorial-topic">Tutorial</div>
+				<a href="intojava" class="tutorial">Java</a>
+				<a href="javaclasses" class="tutorial">Python</a>
+				<a href="#" class="tutorial">Angular</a>
+				<a href="#" class="tutorial">Ruby</a>
+				<a href="#" class="tutorial">Swift</a>
+				<a href="#" class="tutorial">JavaScript</a>
+				
+				<div class="tutorial-topic">Web Language</div>
+				<a href="#" class="tutorial">HTML</a>
+				<a href="#" class="tutorial">CSS</a>
+				<a href="#" class="tutorial">PHP</a>
+				<a href="#" class="tutorial">JSP</a>
+				<a href="#" class="tutorial">ASP</a>
+				<a href="#" class="tutorial">Bootstrap</a>
+				<a href="#" class="tutorial">JQuery</a>
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer my-modal-footer-2">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myTutorial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel ">
+  <div class="modal-dialog my-tutorial-modal-dialog" role="document">
+    <div class="modal-content my-modal-content">
+      <div class="modal-header my-modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="my-time" aria-hidden="true">&times;</span></button>
+   <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>  -->
+      </div>
+      <div class="modal-body my-modal-body">
+        <div id="model-side-bar-id" class="mode-side-bar">
+		<!-- <div class="tutorial-heading"><p class="tutorial-text-size">Tutorials</p></div>          col-xs-4 col-md-2-->	
+			<div class="main-tut-list">
+				<!-- <div class="tutorial-point">Learn Core Java</div> -->
+				<a href="index.jsp" class="basic-link">Home</a>
+				<a href="updates.jsp" class="basic-link">Updates</a>
+				<a href="services.jsp" class="basic-link">Services</a>
+				<a href="contact.jsp" class="basic-link">Contact</a>
+				<a href="about.jsp" class="basic-link">About</a>
+				<a href="#" class="basic-link">Tutorial</a>
+				
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer my-modal-footer">
+        <button id="more-tgt-id" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+      </div>
+      
+       
+    </div>
+  </div>
+</div>
+
+ 
